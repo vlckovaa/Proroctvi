@@ -17,11 +17,11 @@ class Hrac:
 
     def __init__(self, profese, ziskanasila, ziskanemagy):
         self.profese = profese
-        if profese == "Hranicarka":
+        if profese == "Hranicar":
             #pole = "lesni tabor"
             startsila = 5
             startmagy = 2
-            self.pohlavi = "f"
+            self.pohlavi = "m"
         else:
             #pole = "gilda"
             startsila = 4
@@ -165,10 +165,8 @@ def bojsnestvurou (co, koho):
 Loupeznik = nestvura("Loupeznik", "humanoid", 2, 3, 3, 3, 3)     
 Inkubus = nestvura("Inkubus", "demon", 2, 0, 0, 5, 3)
 
-Maki = Hrac("Hranicarka", 0, 0)
-bojsnestvurou(Loupeznik,Maki)
+Jamie = Hrac("Hranicar", 0, 0)
+bojsnestvurou(Loupeznik,Jamie)
 
 
-
-#Hraci.append(Maki)
 
