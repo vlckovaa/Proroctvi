@@ -1,13 +1,11 @@
 
 class nestvura:
-    def __init__ (self, jmeno, druh, expy, silaprotif, silaprotim, vuleprotif, vuleprotim, zivoty=1):
+    def __init__ (self, jmeno, druh, expy, sila, vule, zivoty=1):
         self.jmeno = jmeno
         self.druh = druh
-        self.zkusenost = expy
-        self.silaprotim = silaprotim
-        self.silaprotif = silaprotif
-        self.vuleprotim = vuleprotim
-        self.vuleprotif = vuleprotif
+        self.zkusenost = expy     
+        self.sila = sila      
+        self.vule = vule
         self.zivoty = zivoty
         self.zivy = True
         
