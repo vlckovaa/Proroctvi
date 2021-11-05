@@ -17,15 +17,13 @@ class Hrac:
 
     def __init__(self, profese, ziskanasila, ziskanemagy):
         self.profese = profese
-        if profese == "Hranicar":
-            #pole = "lesni tabor"
+        if profese == "Hranicar":         
             startsila = 5
             startmagy = 2
             self.pohlavi = "m"
-        else:
-            #pole = "gilda"
-            startsila = 4
-            startmagy = 4
+        elif profese == "Druid":            
+            startsila = 3
+            startmagy = 6
             self.pohlavi = "m"
         self.ubranezivoty = 0
         self.vycerpanemagy = 0
