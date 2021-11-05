@@ -10,43 +10,8 @@ def hodkostkou(strany=6):
 
 #Hraci = []
 #vecnaloviste = []
-#lesnitabor = []
+#lesnitabor = [
 #gilda = []
-
-class Hrac:
-
-    def __init__(self, profese, ziskanasila, ziskanemagy):
-        self.profese = profese
-        if profese == "Hranicar":
-            #pole = "lesni tabor"
-            startsila = 5
-            startmagy = 2
-            self.pohlavi = "m"
-        else:
-            #pole = "gilda"
-            startsila = 4
-            startmagy = 4
-            self.pohlavi = "m"
-        self.ubranezivoty = 0
-        self.vycerpanemagy = 0
-        self.zkusenost = 3
-        self.zlataky = 3
-        #self.pole = pole
-        self.maxzivoty = startsila + ziskanasila
-        self.zivoty = startsila + ziskanasila - self.ubranezivoty
-        self.sila = self.zivoty
-        self.maxvule = startmagy + ziskanemagy
-        self.vule = startmagy + ziskanemagy - self.vycerpanemagy
-        self.zivy = True
-
-        print("Jsem " + self.profese + " a mam ", end = "")
-        print(self.sila, end = "")
-        print(" zivotu a ", end = "")
-        print(self.vule, end = "")
-        print(" magu.")
-   
-    def __repr__(self):
-      return self.profese
 
 
 
