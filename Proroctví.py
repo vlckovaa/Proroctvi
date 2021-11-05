@@ -22,6 +22,14 @@ class Hrac:
             startsila = 5
             startmagy = 2
             self.pohlavi = "m"
+        elif profese == "Zaklinacka":
+            startsila = 4
+            startmagy = 4
+            self.pohlavi = "f"
+        elif profese == "Zoldak":
+            startsila = 2
+            startmagy = 5
+            self.pohlavi = "m"
         else:
             #pole = "gilda"
             startsila = 4
